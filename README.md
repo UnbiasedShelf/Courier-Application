@@ -13,8 +13,10 @@ Android application for customer-courier interaction. Was part of diploma projec
 - Change value of **BASE_URL** to your own server URL in the [NetworkService.kt](https://github.com/UnbiasedShelf/Courier-Application/blob/main/app/src/main/java/by/bstu/vs/stpms/courier_application/model/network/NetworkService.kt) file
 
 ## Screenshots
-![Created Orders Screen](https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot1.png)
-![History Screen](https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot2.png)
-![Route for Order](https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot3.png)
-![Stats on Profile Screen](https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot4.png)
-![One of the tabs on Order Creating Screen](https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot5.png)
+<div class="row">
+  <img src="https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot1.png" width=250/>
+  <img src="https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot2.png" width=250/>
+  <img src="https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot3.png" width=250/>
+  <img src="https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot4.png" width=250/>
+  <img src="https://github.com/UnbiasedShelf/Courier-Application/blob/main/docs/screenshot5.png" width=250/>
+</div>
