@@ -50,14 +50,14 @@ class CourierOrderDetailsViewModel : ViewModel() {
             if (order?.isSuccessful == true && order?.data != null) {
                 val orderData = order?.data!!
                 val originAddress =
-                    geocoder.getFromLocationName(orderData.sender.address, 1).first()
+                    geocoder.getFromLocationName(orderData.sender.address, 1)!!.first()
                 val origin = "${originAddress.latitude}, ${originAddress.longitude}"
                 val destinationAddress =
-                    geocoder.getFromLocationName(orderData.recipient.address, 1).first()
+                    geocoder.getFromLocationName(orderData.recipient.address, 1)!!.first()
                 val destination = "${destinationAddress.latitude}, ${destinationAddress.longitude}"
 
                 val defaultAddress =
-                    geocoder.getFromLocationName("Minsk, Belarus", 1).first()
+                    geocoder.getFromLocationName("Minsk, Belarus", 1)!!.first()
                 cameraPosition = CameraPosition.fromLatLngZoom(
                     LatLng(
                         defaultAddress.latitude,
